@@ -14,6 +14,11 @@
             <mj-class name="privacy" font-size="12px" align="center" line-height="21px" />
 
             <!-- Custom colors -->
+            <mj-class name="dark-green" color="#3f8347" />
+            <mj-class name="light-green" color="#6aad72" />
+            <mj-class name="dark-gray" color="#505050" />
+            <mj-class name="light-gray" color="#767676" />
+            <mj-class name="off-white" color="#f5f6f8" />
         </mj-attributes>
 
         <mj-style>
