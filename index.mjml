@@ -1,0 +1,295 @@
+<mjml>
+    <mj-head>
+        <mj-title>Easy Salad!</mj-title>
+
+        <mj-attributes>
+            <!-- MJML Attributes -->
+            <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" />
+            <mj-section padding="0px" />
+            <mj-text padding="0px" font-family="Lato, sans-serif" />
+            <mj-button padding="0px" inner-padding="10px 30px" font-family="Lato, sans-serif"  border-radius="40px" font-size="18px"/>
+            <mj-image padding="0px" />
+            
+            <!-- Custom Styles -->
+            <mj-class name="privacy" font-size="12px" align="center" line-height="21px" />
+
+            <!-- Custom colors -->
+        </mj-attributes>
+
+        <mj-style>
+            h1 {
+                margin: 0;
+            }
+            .btn-green a:hover {
+                background-color: transparent !important;
+                border-color: #3f8347 !important;
+                color: #3f8347 !important;
+            }
+            .btn-green td:hover {
+                background-color: transparent !important;
+                border-color: #3f8347 !important;
+            }
+            .btn-outline a:hover {
+                background-color: #1d1d1b !important;
+                border-color: #1d1d1b !important;
+                color: #fff !important;
+            }
+            .btn-outline td:hover {
+                background-color: #1d1d1b !important;
+                border-color: #1d1d1b !important;
+            }
+
+        </mj-style>
+    </mj-head>
+
+    <mj-body background-color="#fff" width="680px">
+            <mj-section background-url="/images/header-bg-big.jpg" background-size="cover" background-position="bottom left" background-repeat="no-repeat" >               
+                <mj-column>
+                    <mj-image src="images/logo.png" alt="logo" width="154px" padding="25px 50px" />  
+                </mj-column>
+                <!-- Left column hero text-->
+                <mj-column width="75%" padding="5px 30px 5px 40px">
+                    <mj-spacer height="35px" />
+                    <mj-text padding-left="5px" padding-top="20px" font-size="43px" color="#6aad72" letter-spacing="2px" line-height="51.6px">
+                        SAVE TIME
+                    </mj-text>
+                    <mj-text padding-left="5px" font-size="36px" color="#3f8347" letter-spacing="4px" line-height="45.6px">
+                            <strong>WITH</strong> EASY <strong>SALAD</strong>
+                    </mj-text>
+                    <mj-text padding-left="5px" font-size="28px" color="#505050" letter-spacing="1px" line-height="33.6px">
+                            MEAL PREP KITS
+                    </mj-text>
+                    <mj-text color="#767676" padding="30px 60px 30px 5px" line-height="21px">
+                        The shortcut to grab a fresh and delicious salads from our kitchen right to your door. Up your game with our meal kits.  Get 30% off on all your orders this month.
+                    </mj-text>
+                    <mj-button css-class="btn-green" href="https://www.google.com" align="left" padding-left="5px" background-color="#6aad72" border="2px solid #6aad72">
+                        Get 30% off
+                    </mj-button />
+                    <mj-spacer height="50px" />
+                </mj-column>
+                <!-- Right column spacer -->
+                <mj-column width="25%" padding-top="5px">
+                    <mj-spacer height="35px" />
+                </mj-column>
+            </mj-section>
+
+        <!-- Fresh recipes header -->
+        <mj-section background-color="#fff">
+            <mj-column>
+                <mj-image src="images/fresh-recipes-logo-outline.png" alt="recipe" width="204px" padding="30px 30px 10px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Fresh recipe -->
+        <mj-section>
+            <!-- Left column -->
+            <mj-column padding="30px">
+                <mj-raw>
+                    <img width="100%" src="images/recipe1.jpg" />
+                </mj-raw>
+                <mj-text padding="30px 30px 5px" font-size="18px" color="#6aad72" line-height="120%" css-class="bg-lightgray" >
+                    Light and fresh local tomatoes and feta
+                </mj-text>
+                <mj-text padding="10px 30px 30px" line-height="24px" css-class="bg-lightgray">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </mj-text>
+            </mj-column>
+
+            <!-- Right column -->
+            <mj-column padding="30px">
+                <mj-raw>
+                    <img width="100%" src="images/recipe2.jpg" />
+                </mj-raw>
+                <mj-text padding="30px 30px 5px" font-size="18px" color="#6aad72" line-height="120%" css-class="bg-lightgray">
+                    Avocado, farm eggs and freshly tomatoes
+                </mj-text>
+                <mj-text padding="10px 30px 30px" line-height="24px" css-class="bg-lightgray">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Leafs section -->
+        <mj-section>
+            <mj-column>
+                <mj-image src="images/img-body-leafs.png" alt="" width="680px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Taste the summer -->
+        <mj-wrapper>    
+            <mj-section>
+                <mj-column>
+                    <mj-text color="#1d1d1b" align="center" font-size="20px" padding="5px 30px">
+                        Taste the Summer!
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column>
+                    <mj-text font-size="14px" padding="30px" align="center" line-height="24px" >
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section>
+                <mj-column>
+                    <mj-button css-class="btn-outline" href="https://www.google.com" border="2px solid #1d1d1b" background-color="#fff" color="#1d1d1b" padding="15px 0 20px">
+                        Order now
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <!-- Spacer -->
+        <mj-section>
+            <mj-column>
+                <mj-spacer height="20px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Ingredients -->
+        <mj-section background-url="images/ingredients-bg.jpg" background-repeat="no-repeat" background-position="bottom right" padding="15px 30px 0px">
+            <mj-column>
+                <mj-spacer height="75px"/>
+                <mj-text padding="35px 0px 0px" font-size="18px" line-height="180%" align="center" color="#505050">
+                    Max freshness for you!
+                </mj-text>
+                <mj-text font-size="43px" color="#6aad72" line-height="180%" align="center">
+                    From farm
+                </mj-text>
+                <mj-text padding="0px 0px 25px 20px" font-size="42px" color="#3f8347" line-height="120%" align="center">
+                    to our meal kits
+                </mj-text>
+                <mj-button css-class="btn-green" href="https://www.google.com" padding="15px" background-color="#6aad72"  border="2px solid #6aad72" >
+                    Create my own meal
+                </mj-button />
+                <mj-spacer height="120px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Spacer -->
+        <mj-section>
+            <mj-column>
+                <mj-spacer height="45px" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Freshly meal kits -->            
+        <mj-section>
+            <!-- Left column -->
+            <mj-column width="340px">
+                <mj-raw>
+                    <img width="100%" src="images/recipe3.jpg" />
+                </mj-raw>
+            </mj-column>
+
+            <!-- Right column -->
+            <mj-column padding="11.25px 0" background-color="#f5f6f8" width="340px">
+                <mj-text color="#1d1d1b" padding="50px 30px 5px" font-size="18px" line-height="120%">
+                    Freshly meal kits
+                </mj-text>
+                <mj-text padding="15px 30px 30px" font-size="16px" line-height="24px">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </mj-text>
+                <mj-button css-class="btn-outline" href="https://www.google.com" border="2px solid #1d1d1b" background-color="transparent" color="#1d1d1b" padding="0px 0px 30px 30px" align="left">
+                    Shop meal kits
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Three column section -->
+        <mj-section padding="30px">
+            <!-- Column 1 -->
+            <mj-column padding="25px">
+                <mj-image src="images/bowl-icon.png" alt="" width="101px" padding="5px 15px 30px"/>
+                <mj-text font-size="18px" color="#707070" align="center">
+                    Simple
+                </mj-text>
+            </mj-column>
+
+            <!-- Column 2 -->
+            <mj-column padding="25px">
+                <mj-image src="images/fresh-icon.png" alt="" width="101px" padding="5px 15px 30px"/>
+                <mj-text font-size="18px" color="#707070" align="center">
+                    Fresh
+                </mj-text>
+            </mj-column>
+
+            <!-- Column 3 -->
+            <mj-column padding="25px">
+                <mj-image src="images/clock-icon.png" alt="" width="101px" padding="5px 15px 30px"/>
+                <mj-text font-size="18px" color="#707070" align="center">
+                    Convenient
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer section -->
+        <mj-wrapper padding="5px 0">
+            <mj-section>
+                <mj-column padding="30px" background-color="#6aad72">
+                    <mj-text padding="10px" align="center" color="#fff">
+                        Visit our website and get your discount on our meal kits.
+                    </mj-text>
+                    <mj-text padding="5px" align="center" color="#fff">
+                        <a href="#" style="padding: 15px; text-decoration: none; color: #fff;">MEAL KITS</a>
+                        <a href="#" style="padding: 15px; text-decoration: none; color: #fff;">INGREDIENTS</a>
+                        <a href="#" style="padding: 15px; text-decoration: none; color: #fff;">CUSTOM MEALS</a>
+                    </mj-text>
+                    <mj-text padding="10px 0px" align="center" color="#fff">
+                        <a href="https://www.google.com" style="padding: 15px; text-decoration: none; color: #fff;" >www.freshlymealkits.com</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section padding="15px 30px">
+                <mj-column>
+                    <mj-text align="center" color="#6aad72" font-size="16px">
+                        Offer valid until the end of May.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!-- Social icons -->
+            <mj-section padding="10px" >
+                <mj-column>
+                    <mj-text align="center">
+                        <a href="#"><img src="images/facebook2x.png" alt="" width="32px" /></a>
+                        <a href="#"><img src="images/instagram2x.png" alt="" width="32px" /></a>
+                        <a href="#"><img src="images/twitter2x.png" alt="" width="32px" /></a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!-- Privacy policy -->
+            <mj-section padding="30px">
+                <mj-column>
+                    <mj-text mj-class="privacy" >
+                        If you have questions regarding your data, please visit our Privacy Policy
+                    </mj-text>
+                    <mj-text mj-class="privacy">
+                        Want to change how you receive these emails? You can update your preferences or unsubscribe from this list.
+                    </mj-text>
+                    <mj-text mj-class="privacy">
+                        © 2021 Company. All Rights Reserved.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <!-- Footer logo -->
+            <mj-section padding="20px 15px 15px">
+                <mj-column>
+                    <mj-image href="https://www.google.com" src="images/logo-dark.png" alt="" width="136px"/>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-section>
+            <mj-column>
+                <mj-spacer height="60px" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
