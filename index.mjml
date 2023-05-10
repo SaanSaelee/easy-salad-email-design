@@ -2,6 +2,11 @@
     <mj-head>
         <mj-title>Easy Salad!</mj-title>
 
+        <!-- Preview text -->
+        <mj-preview>
+            The shortcut to grab a fresh and delicious salads from our kitchen right to your door.
+        </mj-preview>
+
         <mj-attributes>
             <!-- MJML Attributes -->
             <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" />
@@ -21,6 +26,13 @@
             <mj-class name="off-white" color="#f5f6f8" />
         </mj-attributes>
 
+        <!--Target dark mode-->
+        <mj-raw>
+            <meta name="color-scheme" content="light dark">
+            <meta name="supported-color-schemes" content="light dark only">
+        </mj-raw>
+
+        <!-- CSS styles -->
         <mj-style>
             h1 {
                 margin: 0;
@@ -43,11 +55,16 @@
                 background-color: #1d1d1b !important;
                 border-color: #1d1d1b !important;
             }
+            @media (prefers-color-scheme: dark) {
+                .body-darkmode {
+                    /* background-color: red !important; */
+                }
+            }
 
         </mj-style>
     </mj-head>
 
-    <mj-body background-color="#fff" width="680px">
+    <mj-body background-color="#fff" width="680px" css-class="body-darkmode">
             <mj-section background-url="/images/header-bg-big.jpg" background-size="cover" background-position="bottom left" background-repeat="no-repeat" >               
                 <mj-column>
                     <mj-image src="images/logo.png" alt="logo" width="154px" padding="25px 50px" />  
